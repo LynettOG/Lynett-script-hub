@@ -1,0 +1,63 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Lynett script hub", "LightTheme")
+local Tab = Window:NewTab("Scripts")
+local Section = Tab:NewSection("Scripts")
+Section:NewButton("Peruanito", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/i4mitty/Peruanito.exe/main/Peruanito.exe.lua"))()
+    print("Clicked")
+end)
+
+Section:NewButton("Fling gui", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe./main/Fling%20GUI"))()
+    print("Clicked")
+end)
+
+Section:NewButton("Infinite Yield", "ButtonInfo", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+    print("Clicked")
+end) 
+
+Section:NewButton("VFly (car fly)", "ButtonInfo", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/MHE1cbWF"))()
+    print("Clicked")
+end)
+
+Section:NewButton("Murder Mystery 2", "ButtonInfo", function()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/cafdac8cf3c413e2aba68641d6247547.lua"))()
+    print("Clicked")
+end)
+
+Section:NewButton("Chat Art", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/omegachadgaming/mongus/main/main.lua", true))()
+    print("Clicked")
+end)
+
+Section:NewButton("Chat bypass", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/rouxhaver/scripts-3/main/hacker%20chat.lua"))()
+    print("Clicked")
+end)
+
+Section:NewButton("Mobile keyboard", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+    print("Clicked")
+end)
+
+Section:NewButton("Astral hub", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/AstralHub/main/Main.lua", true))()
+    print("Clicked")
+end)
+
+Section:NewButton("Murderers vs sheriffs duels", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AsteriskCodes/Ranxware-V2-Restored/main/source.lua"))()
+    print("Clicked")
+end)
+
+Section:NewButton("Animation hub", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Animation-Hub/main/Animation%20Gui", true))()
+    print("Clicked")
+end)
+    
+Section:NewButton("AutoPiano", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/3.2Lol/main/AutoPiano3-2.lua", true))()
+    print("Clicked")
+end)
